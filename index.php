@@ -11,7 +11,7 @@
  //Armazenamento das saídas do arquivo em buffer
         ob_start();
         
-        require_once 'validapdf.php';
+        // require_once 'validapdf.php';
  //Envio do valor do buffer para a a classe
         $dompdf->loadHtml(ob_get_clean());
 //Renderização do arquivo PDF
